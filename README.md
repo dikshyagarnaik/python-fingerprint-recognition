@@ -34,3 +34,18 @@ NOTE: the fingerprints must be in the `/database` folder
 ## Credits
 
 Special thanks to https://github.com/Utkarsh-Deshmukh/Fingerprint-Enhancement-Python for providing a library used to enhance the fingerprint picture.
+
+## My Notes on Running This Project
+
+I forked this repository to learn about fingerprint recognition with Python and OpenCV.
+
+### Steps I Followed
+1. Cloned the repo locally.
+2. Created a Python virtual environment.
+3. Installed dependencies with `pip install -r requirements.txt`.
+4. Ran the program with sample fingerprint images from the `/database` folder.
+
+Example command:
+```bash
+python src/fingerprint_recognition.py database/101__M_Left_index_finger.BMP database/102__M_Left_index_finger.BMP
+
